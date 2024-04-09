@@ -11853,7 +11853,114 @@ textarea.form-control-lg {
   src: url("../../assets/fonts/Cabin-SemiBoldItalic.ttf") format("truetype");
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  background-color: #0D1321;
+  overflow-y: scroll;
+}
+
+.navbar {
+  padding-top: 4px;
+  padding-bottom: 6px;
+  background-color: #1D2D44;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand .navbar-brand-secondary {
+  font-size: 32px;
+  font-style: italic;
+  opacity: 0.5;
+}
+
+.navbar-brand .navbar-brand-secondary a {
+  color: white;
+}
+
+.navbar-brand .navbar-brand-secondary a:hover {
+  color: #52B2CF;
+}
+
+.nav-link {
+  color: #52B2CF;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.navbar .nav-item {
+  margin: 0px 34px 0px 34px;
+}
+
+main {
+  color: white;
+  padding-top: 60px;
+}
+
+.main-img {
+  margin: auto;
+}
+
+.call-to-action {
+  font-size: 20px;
+  padding: 30% 0% 70% 0%;
+}
+
+.cta-main {
+  font-weight: 200;
+  font-size: 32px;
+  color: #52B2CF;
+}
+
+.btn {
+  background-color: #499F68;
+  color: white;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.btn:hover {
+  background-color: #52B2CF;
+}
+
+.label {
+  margin: 40px 40px;
+}
+
+.label .page-label {
+  background-color: #52B2CF;
+  padding: 0px 30px;
+  padding-bottom: 8px;
+  font-size: 40px;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  margin: 20% 0% 10% 0%;
+  border: 2px solid #52B2CF;
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+.card-title {
+  text-align: center;
+  color: #52B2CF;
+}
+
+.card-text {
+  text-align: left;
+  margin: 25px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,140 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+$rich-black: #0D1321;
+$prussian-blue: #1D2D44;
+$moonstone: #52B2CF;
+$shamrock-green: #499F68;
+
+$theme-colours: (
+    "rich-black": $rich-black,
+    "prussian-blue": $prussian-blue,
+    "moonstone": $moonstone,
+    "shamrock-green": $shamrock-green
+);
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/fonts/Montserrat-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('../../assets/fonts/Cabin-SemiBoldItalic.ttf') format('truetype');
+}
+
+body {
+
+    background-color: map-get($theme-colours, rich-black);
+    overflow-y: scroll;
+}
+
+.navbar {
+    padding-top: 4px;
+    padding-bottom: 6px;
+    background-color: map-get($theme-colours, prussian-blue);
+}
+
+.profile-picture {
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand .navbar-brand-secondary {
+    font-size: 32px;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+.navbar-brand .navbar-brand-secondary a {
+    color: white;
+}
+
+.navbar-brand .navbar-brand-secondary a:hover {
+    color: $moonstone;
+}
+
+.nav-link{
+    color: map-get($theme-colours, moonstone);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.nav-link:hover{
+    color: map-get($theme-colours, white);
+}
+
+.navbar .nav-item {
+    margin: 0px 34px 0px 34px;
+}
+
+main {
+    color:white;
+    padding-top: 60px;
+}
+
+.main-img {
+    margin: auto;
+}
+
+.call-to-action {
+    font-size: 20px;
+    padding: 30% 0% 70% 0%;
+
+}
+
+.cta-main {
+    font-weight: 200;
+    font-size: 32px;
+    color: $moonstone;
+}
+
+.btn {
+    background-color: $shamrock-green;
+    color: white;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.btn:hover {
+    background-color: $moonstone;
+}
+
+.label {
+    margin: 40px 40px;
+}
+
+.label .page-label {
+    background-color: $moonstone;
+    padding: 0px 30px;
+    padding-bottom: 8px;
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card  {
+    margin: 20% 0% 10% 0%;
+    border: 2px solid $moonstone;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.card-title {
+    text-align: center;
+    color: $moonstone;
+}
+
+.card-text {
+    text-align: left;  
+    margin: 25px;
+}
