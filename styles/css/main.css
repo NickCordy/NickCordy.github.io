@@ -11869,19 +11869,15 @@ body {
 }
 
 .navbar-brand {
-  padding: 0;
-}
-
-.navbar-brand {
-  font-size: 32px;
+  font-size: 26px;
   margin: 0;
   padding: 0;
 }
 
 .navbar-brand .navbar-brand-secondary {
-  font-size: 32px;
   font-style: italic;
   opacity: 0.5;
+  margin-left: 10px;
 }
 
 .navbar-brand .navbar-brand-secondary a {
@@ -11893,9 +11889,9 @@ body {
 }
 
 .nav-link {
-  color: #52B2CF;
+  opacity: 0.9;
   font-size: 20px;
-  text-decoration: underline;
+  font-weight: 500;
 }
 
 .navbar .nav-item {

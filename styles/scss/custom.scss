@@ -1,4 +1,4 @@
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 $rich-black: #0D1321;
 $prussian-blue: #1D2D44;
@@ -40,19 +40,15 @@ body {
 }
 
 .navbar-brand {
-    padding: 0;
-}
-
-.navbar-brand {
-    font-size: 32px;
+    font-size: 26px;
     margin: 0;
     padding: 0;
 }
 
 .navbar-brand .navbar-brand-secondary {
-    font-size: 32px;
     font-style: italic;
     opacity: 0.5;
+    margin-left: 10px;
 }
 
 .navbar-brand .navbar-brand-secondary a {
@@ -63,10 +59,10 @@ body {
     color: $moonstone;
 }
 
-.nav-link{
-    color: map-get($theme-colours, moonstone);
+.nav-link {
+    opacity: 0.9;
     font-size: 20px;
-    text-decoration: underline;
+    font-weight: 500;
 }
 
 .nav-link:hover{
