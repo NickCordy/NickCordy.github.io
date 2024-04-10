@@ -41,11 +41,13 @@ body {
 
 .navbar-brand {
     font-size: 26px;
+    font-weight: 500;
     margin: 0;
     padding: 0;
 }
 
 .navbar-brand .navbar-brand-secondary {
+    font-weight: 400;
     font-style: italic;
     opacity: 0.5;
     margin-left: 10px;
