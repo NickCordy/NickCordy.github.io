@@ -1,4 +1,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/functions";
+@import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import '../../node_modules/material-icons/iconfont/material-icons.css';
 
 $rich-black: #0D1321;
 $prussian-blue: #1D2D44;
@@ -32,11 +35,6 @@ body {
     padding-top: 4px;
     padding-bottom: 6px;
     background-color: map-get($theme-colours, prussian-blue);
-}
-
-.profile-picture {
-    border-radius: 50%;
-    margin-right: 25px;
 }
 
 .navbar-brand {
@@ -74,6 +72,7 @@ body {
 .navbar .nav-item {
     margin: 0px 34px 0px 34px;
 }
+
 
 main {
     color:white;
