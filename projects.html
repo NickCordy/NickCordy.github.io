@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nick Cordy - Portfolio</title>
     <link rel="stylesheet" href="../styles/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <script src="../scripts/main.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
@@ -23,16 +24,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Me</a>
+                        <a class="nav-link" href="projects.html">Projects <i class="fa-solid fa-briefcase"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
+                        <a class="nav-link" href="resume.html">Resumé <i class="fa-solid fa-file"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="resume.html">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact <i class="fa-solid fa-envelope"></i></a>
                     </li>
                 </ul>
             </div>
@@ -42,48 +40,65 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col">
-                    <span class="label label-default"><h2 class="page-label">Projects</h2></span>
+                    <div class="border-bottom border-5 border-primary">
+                        <h2 class="label label-default">Projects</h2>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="card text-center mx-auto" style="width: 14rem;">
-                        <img src="../assets/images/code.jpg" class="card-img-top">
+                    <div class="card card-enlarge card-margin-lg text-center mx-auto" style="width: 20rem; height: 20rem;">
+                        <a href="https://github.com/NickCordy/Media-Player">
+                            <img src="../assets/images/code.jpg" class="card-img-top img-container">
+                        </a>
                     </div>
                     <div>
-                        <h3 class="card-title">Project 1</h3>
-                        <p class="card-text">This is a brief description of this project.</p>
+                        <h3 class="card-title">Media Player</h3>
+                        <p class="card-text">
+                            <p>Implemented media handling logic and user interface using XAML and C# in WPF.</p>
+                            <p>Gained insight user controls and design within the .NET framework.</p>
+                        </p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center mx-auto" style="width: 14rem;">
-                        <img src="../assets/images/scrabble.jpg" class="card-img-top">
+                    <div class="card card-enlarge card-margin-lg text-center mx-auto" style="width: 20rem; height: 20rem;">
+                        <a href="https://github.com/NickCordy/French-Chatbot">
+                            <img src="assets/images/chatbot.png" class="card-img-top img-container">
+                        </a>
                     </div>
                     <div>
-                        <h3 class="card-title">Project 2</h3>
-                        <p class="card-text">This is a brief description of this project.</p>
+                        <h3 class="card-title">French Chatbot</h3>
+                        <p class="card-text">
+                            <p>Developed an AI chatbot using Python and integrated Flask for web app functionality, focusing on language processing.</p>
+                            <p>Enhanced understanding of NLP and its application in creating conversational AI.</p>
+                        </p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center mx-auto" style="width: 14rem;">
-                        <img src="../assets/images/mini-pc.jpg" class="card-img-top">
+                    <div class="card card-enlarge card-margin-lg text-center mx-auto" style="width: 20rem; height: 20rem;">
+                        <a href="https://github.com/NickCordy/CalculatorApp">
+                            <img src="assets/images/calculator.png" class="card-img-top img-container">
+                        </a>
                     </div>
                     <div>
-                        <h3 class="card-title">Project 3</h3>
-                        <p class="card-text">This is a brief description of this project.</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center mx-auto" style="width: 14rem;">
-                        <img src="../assets/images/earth.jpg" class="card-img-top">
-                    </div>
-                    <div>
-                        <h3 class="card-title">Project 4</h3>
-                        <p class="card-text">This is a brief description of this project.</p>
+                        <h3 class="card-title">Calculator</h3>
+                        <p class="card-text">
+                            <p>Created a calculator with basic and complex operations, employing WPF for a dynamic and responsive layout</p>
+                            <p>Developed familiarity with building responsive UIs in C# and WPF.</p>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <footer class="footer fixed-bottom">
+        <div class="container">
+          <div>
+            <span class="footer-link"><a href="https://www.linkedin.com/in/nick-cordy" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in footer-i"></i> LinkedIn</a></span>
+            <span class="footer-link"><a href="https://github.com/nickcordy" target="_blank" title="GitHub"><i class="fab fa-github footer-i"></i> GitHub</a></span>
+          </div>
+        </div>
+    </footer>
 </body>
 </html>

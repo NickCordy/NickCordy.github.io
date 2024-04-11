@@ -5,34 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nick Cordy - Portfolio</title>
     <link rel="stylesheet" href="styles/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <script src="scripts/main.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <div class="navbar-header">
-                <span class="navbar-brand">
-                    Nick Cordy
-                    <span class="navbar-brand-secondary"><a href="index.html">ePortfolio</a></span>
-                </span>
-            </div>
+            <span class="navbar-brand">
+                Nick Cordy
+                <span class="navbar-brand-secondary"><a href="index.html">ePortfolio</a></span>
+            </span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Me</a>
+                        <a class="nav-link" href="projects.html">Projects <i class="fa-solid fa-briefcase"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
+                        <a class="nav-link" href="resume.html">Resumé <i class="fa-solid fa-file"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="resume.html">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact <i class="fa-solid fa-envelope"></i></a>
                     </li>
                 </ul>
             </div>
@@ -41,17 +37,113 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <article class="call-to-action">
-                        <p>Hi, my name is Nick Cordy and I'm an aspiring IT professional.</p>
-                        <p class="cta-main">I want to help your company and learn as much as I can in the process.</p>
-                        <a href="contact.html" class="btn btn-lg">Contact Me</a>
-                    </article>
+                <div class="card card-enlarge card-margin-lg mx-auto" style="width: 100%;">
+                    <div class="card-body">
+                        <h4 class="card-title">About Me</h4>
+                        <p class="card-text fs-5">
+                            I am a recent graduate from Nova Scotia Community College with a diploma in IT Programming.
+                            I have a passion for exploring a wide range of programming languages.
+                            I bring a robust foundation in software development, underscored by a diverse programming
+                            skill set that spans Python, Java, C, C++, C#, JavaScript, and Kotlin.
+                        </p>
+                        <p class="card-text fs-5">
+                            In addition to my work experience, my personal projects showcase my ability to deliver tailored tech solutions.
+                            Moving forward, I plan to apply my skills to innovative projects and continue honing my technical knowledge.
+                        </p>
+                        <div class="text-center">
+                            <a href="resume.html" class="btn btn-lg">See my resumé</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
+            </div>
+            <div class="row">
+                <div class="justify-content-center">
+                    <div class="mx-auto text-center">
+                        <p class="cta-main">Looking forward to showcasing my passion for technology</p>
+                        <a href="contact.html" class="btn btn-lg">Contact Me</a>
+                    </div>
+                </div>
+                <div class="mt-5 mb-5">
+                    <div class="row">
+                        <div class="col-12 col-md">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Web Development</h5>
+                                    <p class="card-text fs-5">
+                                        Skilled in using HTML, CSS, 
+                                        and JavaScript to build responsive web pages. Familiar with
+                                        front-end frameworks like React, and beginning to apply back-end
+                                        development skills with Node.js.
+                                    </p>
+                                </div>
+                                <div class="card-footer fs-5 text-center">
+                                    <i class="fa-brands fa-js"></i> JavaScript,
+                                    <i class="fa-brands fa-html5"></i> HTML,
+                                    <i class="fa-brands fa-css3-alt"></i> CSS
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">C# and .NET Development</h5>
+                                    <p class="card-text fs-5">
+                                        Confident in using C# for .NET projects,
+                                        with a good understanding of .NET Core fundamentals.
+                                        Experienced in building web and desktop
+                                        apps using ASP.NET MVC.
+                                    </p>
+                                </div>
+                                <div class="card-footer fs-5 text-center">
+                                    C#,
+                                    .Net
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mobile Development</h5>
+                                    <p class="card-text fs-5">
+                                        Competent in the basics of mobile development, with hands-on experience
+                                        in developing simple applications for Android in Java and Kotlin using Android Studio.
+                                    </p>
+                                </div>
+                                <div class="card-footer fs-5 text-center">
+                                    <i class="fa-brands fa-java"></i> Java,
+                                    Kotlin
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Database Management</h5>
+                                    <p class="card-text fs-5">
+                                        Proficient in foundational database concepts, with practical
+                                        experience in SQL from past work experiences.
+                                    </p>
+                                </div>
+                                <div class="card-footer fs-5 text-center">
+                                    <i class="fa-solid fa-database"></i> SQL
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <footer class="footer fixed-bottom">
+        <div class="container">
+            <div>
+                <span class="footer-link"><a href="https://www.linkedin.com/in/nick-cordy" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in footer-i"></i> LinkedIn</a></span>
+                <span class="footer-link"><a href="https://github.com/nickcordy" target="_blank" title="GitHub"><i class="fab fa-github footer-i"></i> GitHub</a></span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
